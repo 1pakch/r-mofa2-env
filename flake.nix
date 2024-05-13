@@ -30,7 +30,7 @@
     #   run_mofa(...)
     # ```
     r-env-with-py-env = pkgs.writeShellScriptBin "R" ''
-      MOFAPY2_PYTHON_PATH="${py-env}/bin/python3" ${r-env}/bin/R
+      MOFAPY2_PYTHON_PATH="${py-env}/bin/python3" ${r-env}/bin/R $@
     '';
 
     flakeApp = path: { type = "app"; program = path; };
