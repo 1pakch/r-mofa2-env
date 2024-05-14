@@ -19,6 +19,7 @@
         pkgs.rPackages.IRkernel
         pkgs.rPackages.MOFA2
         pkgs.rPackages.tidyverse
+        pkgs.rPackages.DESeq2
       ];
     };
 
