@@ -20,6 +20,7 @@
         pkgs.rPackages.MOFA2
         pkgs.rPackages.tidyverse
         pkgs.rPackages.DESeq2
+        pkgs.rPackages.plyranges
       ];
     };
 
